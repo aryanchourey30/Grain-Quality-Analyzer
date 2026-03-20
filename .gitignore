@@ -1,0 +1,54 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node / frontend / backend artifacts
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+.cache/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Model / notebook junk
+*.ipynb_checkpoints
+
+# Local databases / temp files
+*.sqlite
+*.sqlite3
+*.tmp
+*.temp
+
+# Project-specific generated folders
+Ai-based-grain-quality-analyzer-and-disease-detection/Backend/node_modules/
+Ai-based-grain-quality-analyzer-and-disease-detection/frontend/node_modules/
+Ai-based-grain-quality-analyzer-and-disease-detection/frontend/dist/
+Ai-based-grain-quality-analyzer-and-disease-detection/**/__pycache__/
+Ai-based-grain-quality-analyzer-and-disease-detection/**/venv/
