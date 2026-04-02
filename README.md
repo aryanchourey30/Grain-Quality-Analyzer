@@ -49,7 +49,7 @@ Backend API (Express + Socket.IO)
 Frontend Dashboard (React + TypeScript)
 ```
 
-## Tech Stack
+#### Tech Stack
 
 ### Frontend
 
